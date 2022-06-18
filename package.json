@@ -1,0 +1,26 @@
+{
+  "name": "embedded-japi-vue-press",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vuepress/plugin-active-header-links": "^1.9.7",
+    "@vuepress/plugin-back-to-top": "^1.9.7",
+    "@vuepress/plugin-pwa": "^1.9.7",
+    "vuepress": "^1.9.7",
+    "vuepress-plugin-auto-sidebar": "^2.3.2",
+    "vuepress-plugin-permalink-pinyin": "^1.1.0",
+    "vuepress-theme-reco": "^1.6.13"
+  },
+  "dependencies": {
+    "gitalk": "^1.7.2",
+    "moment": "^2.29.3"
+  }
+}
