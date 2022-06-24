@@ -24,7 +24,7 @@ module.exports = {
                 ignoreThemes: '忽略其他主题', // Default is "Ignore Other Themes?"
             },
         },
-        logo: '/assets/img/logo.png',
+        // logo: '/assets/img/logo.png',
         prevLinks: false,
         nextLinks: false,
         smoothScroll: true,
