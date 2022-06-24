@@ -1,31 +1,34 @@
 const moment = require("moment");
 
-module.exports =  {
-    '@vuepress/active-header-links':{
+module.exports = {
+    '@vuepress/active-header-links': {
         sidebarLinkSelector: '.sidebar-link',
         headerAnchorSelector: '.header-anchor'
     },
-    '@vuepress/pwa':{
-        serviceWorker: true,
-        updatePopup: true
-    },
-    '@vuepress/back-to-top':{
+    // '@vuepress/pwa':{
+    //     serviceWorker: true,
+    //     updatePopup: {
+    //         message : '此文件似乎有更新',
+    //         buttonText: '刷新'
+    //     }
+    // },
+    '@vuepress/back-to-top': {
 
     },
-    '@vuepress/last-updated':{
+    '@vuepress/last-updated': {
         transformer: (timestamp, lang) => {
             // 不要忘了安装 moment
-            moment.locale(lang)
-            return moment(timestamp).format('LLLL')
-          }
+            moment.locale('zh-cn')
+            return moment(timestamp).format('lll')
+        }
     },
-    'vuepress-plugin-permalink-pinyin':{
-
-    },
-    'vuepress-plugin-auto-sidebar':{
+    //'vuepress-plugin-permalink-pinyin':{
+    //
+    //},
+    'vuepress-plugin-auto-sidebar': {
         sort: {
-            mode: "asc",
-            readmeFirst: true,
+            mode: "created_time_asc",
+            readmeFirst: false,
             readmeFirstForce: false
         },
         title: {

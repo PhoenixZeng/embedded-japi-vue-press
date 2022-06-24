@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "docs:dev": "vuepress dev docs",
+    "docs:dev": "vuepress dev docs --temp .temp",
     "docs:build": "vuepress build docs"
   },
   "keywords": [],
@@ -20,6 +20,8 @@
     "vuepress-theme-reco": "^1.6.13"
   },
   "dependencies": {
+    "@babel/core": "^7.18.5",
+    "cache-loader": "^4.1.0",
     "gitalk": "^1.7.2",
     "moment": "^2.29.3"
   }
