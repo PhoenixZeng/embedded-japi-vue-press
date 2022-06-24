@@ -1,3 +1,7 @@
+---
+footer: Copyright © 2016-Present 阿七 火鸟
+---
+
 # 内置 JAPI
 
 地图内置 japi 插件的文档
@@ -11,7 +15,7 @@ lua 交流 有需要的同学可以在群里讨论
 
 ---
 
-- 内置文档 阿七
+- 内置文档 阿七 火鸟
 
 - 域名/服务器维护 火鸟
 
@@ -28,7 +32,7 @@ lua 交流 有需要的同学可以在群里讨论
 文档分类 所有接口都通用 1.24e 1.26 1.27
 
 - [Japi](/Japi/)
-- [Lua](/Lua/_sidebar)
+- [Lua](/Lua/)
 - [界面](/Script/界面/)
 - [例子](/Script/例子/)
 
@@ -120,12 +124,3 @@ lua 交流 有需要的同学可以在群里讨论
 ---
 
 - [**1.44 版本**](/1.44/)
-
-## 本地启动
-
-本项目依赖 nodejs，npm，[docsify](https://docsify.js.org/)。
-
-```bash
-npm i docsify-cli -g
-docsify serve
-```

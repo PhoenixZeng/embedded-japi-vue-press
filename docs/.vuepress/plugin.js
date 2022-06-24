@@ -22,29 +22,16 @@ module.exports = {
             return moment(timestamp).format('lll')
         }
     },
-    //'vuepress-plugin-permalink-pinyin':{
-    //
-    //},
-    'vuepress-plugin-auto-sidebar': {
-        sort: {
-            mode: "created_time_asc",
-            readmeFirst: false,
-            readmeFirstForce: false
-        },
-        title: {
-            mode: "titlecase",
-            map: {}
-        },
-        sidebarDepth: 3,
-        collapse: {
-            open: false,
-            collapseList: [],
-            uncollapseList: []
-        },
-        ignore: [],
-        removeEmptyGroup: false,
-        git: {
-            trackStatus: 'all'
-        }
+    'check-md': {
+
+    },
+    'seo': {
+
+    },
+    'pangu': {
+
+    },
+    'code-copy': {
+
     },
 }

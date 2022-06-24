@@ -14,15 +14,30 @@
     "@vuepress/plugin-active-header-links": "^1.9.7",
     "@vuepress/plugin-back-to-top": "^1.9.7",
     "@vuepress/plugin-pwa": "^1.9.7",
+    "jest": "^26.6.3",
+    "prettier": "^2.3.0",
     "vuepress": "^1.9.7",
     "vuepress-plugin-auto-sidebar": "^2.3.2",
+    "vuepress-plugin-check-md": "^0.0.2",
+    "vuepress-plugin-code-copy": "^1.0.6",
+    "vuepress-plugin-pangu": "^1.0.1",
     "vuepress-plugin-permalink-pinyin": "^1.1.0",
+    "vuepress-plugin-seo": "^0.2.0",
     "vuepress-theme-reco": "^1.6.13"
   },
   "dependencies": {
     "@babel/core": "^7.18.5",
     "cache-loader": "^4.1.0",
     "gitalk": "^1.7.2",
-    "moment": "^2.29.3"
+    "glob": "^7.1.7",
+    "inflection": "^1.13.1",
+    "lodash.escaperegexp": "^4.1.2",
+    "lodash.sortby": "^4.7.0",
+    "markdown-it": "^12.0.6",
+    "markdown-it-meta": "0.0.1",
+    "moment": "^2.29.3",
+    "parent-module": "^2.0.0",
+    "transliteration": "^2.1.8",
+    "vuepress-theme-yuu": "^3.1.1"
   }
 }
