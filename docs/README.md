@@ -8,10 +8,9 @@ footer: Copyright © 2016-Present 阿七 火鸟
 
 网址 http://japi.war3rpg.top/ 点击查看 可以收藏起来
 
-仓库 https://github.com/w4454962/embedded-japi-plugin 可以随时获得文档的更新
 
 lua 交流 有需要的同学可以在群里讨论
-旧群被封，新 lua 地图群 1019770872
+旧群被封，新lua地图3群 710331384
 
 ---
 
@@ -25,7 +24,7 @@ lua 交流 有需要的同学可以在群里讨论
 
 内置 lua 引擎基于 ydlua 进行扩展, 请先阅读
 
-- [ydlua 引擎文档](/lua-engine)
+- [ydlua 引擎文档](/lua-engine.md)
 
 ---
 
