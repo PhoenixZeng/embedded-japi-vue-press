@@ -15,7 +15,6 @@ let sidebar = [
         sidebarDepth: 5,    // 可选的, 默认值是 1
         children: [
             ['/', '首页'],
-            ['/Jass/', 'Jass'],
             ['/Japi/', 'Japi'],
             ['/Lua/', 'Lua'],
             ['/Script/', '界面'],
