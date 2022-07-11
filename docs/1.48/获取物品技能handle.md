@@ -24,4 +24,4 @@ function GetItemAbility takes item Item, integer slot returns ability
 
 # 例子
 
-可以看 [_智能施法_](/Script/例子/智能施法) 里面关于这条 api 的应用
+可以看 [_智能施法_](/Script/例子/智能施法.md) 里面关于这条 api 的应用

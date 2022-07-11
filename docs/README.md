@@ -25,7 +25,7 @@ lua 交流 有需要的同学可以在群里讨论
 内置 lua 引擎基于 ydlua 进行扩展, 请先阅读
 
 - [ydlua 引擎文档](/lua-engine.md)
-
+- [ydlua rsa加密算法](/lua-rsa.md)
 ---
 
 文档分类 所有接口都通用 1.24e 1.26 1.27
