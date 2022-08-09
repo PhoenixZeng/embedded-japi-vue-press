@@ -26,13 +26,15 @@ function rsa:init()
     if self.d then self.d_bn = bignum.new(bignum.bin(self.d)) end
 end
 
-function rsa:encrypt(c)
+--解码密文 需要 e n
+function rsa:decode(c)
     local c_bn = bignum.new(c)
     local m_bn = c_bn:powmod(self.e_bn, self.n_bn)
     return tostring(m_bn)
 end
 
-function rsa:decrypt(m)
+--编码生成密文 需要 d n
+function rsa:encode(m)
     local m_bn = bignum.new(m)
     local c_bn = m_bn:powmod(self.d_bn, self.n_bn)
     return tostring(c_bn)
@@ -45,14 +47,14 @@ local sha1 = bignum.sha1
 --生成签名
 --	文本
 function rsa:get_sign(content)
-	return self:decrypt(sha1(content))
+	return self:encode(sha1(content))
 end
 
 --验证签名
 --	文本
 --	签名
 function rsa:check_sign(content, sign)
-	return sha1(content) == self:encrypt(sign)
+	return sha1(content) == self:decode(sign)
 end
 
 ```
