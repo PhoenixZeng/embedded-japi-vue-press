@@ -1,5 +1,5 @@
 ---
-footer: Copyright © 2016-Present 阿七 火鸟
+footer: Copyright © 2016-Present 阿七 火凌之凤
 ---
 
 # 内置 JAPI
@@ -9,7 +9,6 @@ footer: Copyright © 2016-Present 阿七 火鸟
 网址 http://japi.war3rpg.top/ 点击查看 可以收藏起来
 
 lua 交流 有需要的同学可以在群里讨论
-旧群被封
 
 ~~lua 交流 3 群 710331384~~ 被封
 
@@ -19,11 +18,11 @@ lua 交流 5 群 526922560 正常
 
 ---
 
-- 内置文档 阿七 火鸟
+- 内置文档 阿七 火凌之凤
 
-- 域名/服务器维护 火鸟
+- 域名/服务器维护 火凌之凤
 
-- 服务器 天天 RPG
+- 服务器 天天 RPG 火凌之凤
 
 ---
 
