@@ -71,7 +71,7 @@ jass里面 有2种函数
 ```
 
 ```lua
-    local code = requore 'jass.code'
+    local code = require 'jass.code'
 
     function code.add(a, b)
         return a + b
