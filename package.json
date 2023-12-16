@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "docs:dev": "vuepress dev docs --temp .temp",
-    "docs:build": "vuepress build docs"
+    "docs:dev": "SET NODE_OPTIONS=--openssl-legacy-provider && vuepress dev docs --temp .temp",
+    "docs:build": "SET NODE_OPTIONS=--openssl-legacy-provider && vuepress build docs"
   },
   "keywords": [],
   "author": "",
