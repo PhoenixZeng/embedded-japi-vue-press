@@ -2,6 +2,9 @@
 
 ```jass
 
+//屏蔽所有物品在地面的指向提示 开局调用一次即可
+function DisableItemPreselectUi takes nothing returns nothing
+
 //异步获取当前选中的物品, 没有延迟但是返回值是异步的
 function GetRealSelectItem takes nothing returns item
 

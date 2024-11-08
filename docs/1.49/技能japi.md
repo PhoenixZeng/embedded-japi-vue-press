@@ -5,6 +5,16 @@
 需要新版本私聊我
 
 ```jass
+
+
+//允许查看指定单位技能    可以看友军或敌军单位的技能
+function EnableDrawSkillPanel takes unit u, boolean enable returns nothing 
+
+//允许查看指定玩家单位技能 可以看友军或敌军单位的技能
+function EnableDrawSkillPanelByPlayer takes player p, boolean enable returns nothing 
+
+
+
 // 设置单位技能范围
 // @param unit u 单位
 // @param integer abil 技能ID
