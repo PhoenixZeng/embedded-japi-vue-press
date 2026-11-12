@@ -9,7 +9,8 @@ function SetUnitPressUIVisible takes handle Handle, boolean is_show returns noth
 隐藏单位跟物品 鼠标指向时显示的 UI 包括单位血条
 
 ::: danger 警告
-目前对 物品使用会引起 掉线 请勿对物品使用
+在一些特定场景下 对物品使用会引起 不同步或掉线
+请勿对物品使用
 :::
 
 # 参数
